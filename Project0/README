@@ -1,0 +1,15 @@
+Linguists has often noticed that natural languages can often be compressed, but still fairly easy to understand because humans are fairly good at pattern seeking. For instances, if I mistyped the phrase "in this issue here" as "in thissue here", you can still understand what I was trying to say.
+
+For this project, you will need to write a tool that can take a sentence, and squeeze the words that have the same ending as the beginning of the next word.
+
+The input (from standard input) will consist of a sentence on each line, you can assume that single spaces separate each word. Squeeze each individual line and output the result (each on their own line). You should not squeeze across lines.
+
+Example Input:
+Ferrets are really super cool.
+But they aren't great at eating dessert.
+I like triking around campus with my dog Mal but he likes scaring squirrels.
+
+Expected Output:
+Ferrets areally super cool. 
+Buthey aren't greating dessert. 
+I like triking around campus with my dog Mal but he likescaring squirrels. 
